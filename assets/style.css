@@ -1,0 +1,242 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Warna Dasar */
+body {
+    background-color: #00474f; /* Hijau tua */
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #00363c;
+}
+
+.navbar .logo {
+    height: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #e63946; /* Warna merah terang */
+}
+
+/* Section Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('hero-bg.jpg'); /* Ganti dengan gambar hero sesuai gambar */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #e63946;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Section Tentang Kami */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #006669;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    color: #e63946;
+}
+
+.about p {
+    margin-top: 20px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.about .about-img img {
+    margin-top: 30px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Section Layanan */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #00474f;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    color: #e63946;
+}
+
+.service {
+    margin-top: 30px;
+    background-color: #005b5e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.service h3 {
+    font-size: 1.8em;
+    margin: 15px 0;
+}
+
+.service p {
+    margin: 10px 0 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #b51c29;
+}
+
+/* Section Kontak */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #006669;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    color: #e63946;
+}
+
+.contact p {
+    margin-top: 10px;
+}
+
+.contact form {
+    margin-top: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #00474f;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #b51c29;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #00363c;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #fff;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+footer .social-links img {
+    width: 30px;
+    transition: transform 0.3s;
+}
+
+footer .social-links img:hover {
+    transform: scale(1.1);
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('https://images.unsplash.com/photo-1580795479333-6638312a2f6b');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #e63946;
+    background-color: rgba(0, 0, 0, 0.6); /* Latar belakang semi-transparan */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Gaya untuk ikon sosial media di footer */
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
